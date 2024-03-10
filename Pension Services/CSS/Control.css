@@ -1,0 +1,191 @@
+
+
+input[type="text"], select, input[type="password"]
+{
+width:240px;  
+height:35px; 
+font-family:constantia;
+font-size:14px;  
+font-weight:bold;
+letter-spacing:2px;
+color:#a12b13;
+padding:10px;
+
+background: #fff;
+border: 3px solid #a12b13;
+border-radius: 10px;
+}
+select
+{
+  width:245px;  
+  height:35px; 
+  font-family:constantia;
+  font-size:14px;  
+  font-weight:bold;
+  letter-spacing:2px;
+  color:#a12b13;
+  padding:5px;
+
+  background: #fff;
+  border: 3px solid #a12b13;
+  border-radius: 10px;
+}
+
+textarea
+{
+  width:240px;  
+  height:125px; 
+  font-family:constantia;
+  font-size:14px;  
+  font-weight:bold;
+  letter-spacing:2px;
+  color:#a12b13;
+  padding:5px;
+
+  background: #fff;
+  border: 3px solid #a12b13;
+  border-radius: 10px;
+}
+
+
+input[type="submit"], button, input[type="reset"]{ 
+  text-align:center; 
+  font-family:constantia;
+  font-size:15px;  
+  letter-spacing:2px;
+  padding: 10px 20px;
+  color: #FFF;
+  background: #a12b13;
+	box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,.1);
+	border-radius: 10px;
+  }
+  
+  
+
+
+  #fulltable
+{
+   width:100%;
+   padding:10px;
+   margin:0 auto;
+}
+
+#fulltable td
+{
+  padding:5px;
+  border: solid 1px #a12b13;
+}
+
+#fulltable th
+{
+  padding:5px;
+  border: solid 1px #a12b13;
+  color:White;
+ background: #a12b13;
+	box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,.1);
+}
+
+#fulltable td a
+{
+width:100px;
+height:30px;
+background:#666666;
+border:medium double #000000;
+font-family:"Courier New", Courier, monospace;
+font-size:16px;
+font-weight:bold;
+color:#fff;
+text-align:center;
+cursor:pointer;
+}
+
+
+
+#minitable
+{
+   width:50%;
+   padding:10px;
+   margin:0 auto;
+}
+
+#minitable td
+{
+  padding:10px;
+  border: dotted 1px #a12b13;
+}
+
+#minitable th
+{
+  padding:5px;
+  border: solid 1px #505050;
+  color:White;
+  background: #a12b13;
+	box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,.1);
+}
+
+#minitable td a
+{
+width:100px;
+height:30px;
+background:#666666;
+border:medium double #000000;
+font-family:"Courier New", Courier, monospace;
+font-size:16px;
+font-weight:bold;
+color:#fff;
+text-align:center;
+cursor:pointer;
+}
+
+
+
+#displaytable
+{
+   width:100%;
+   padding:10px;
+   margin:0 auto;
+}
+
+#displaytable td
+{
+  padding:10px;
+  border: dotted 1px #666666;
+}
+
+#displaytable th
+{
+  padding:10px;
+  border: solid 1px #ffffff;
+  color:White;
+  background: #a12b13;
+	box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,.1);
+}
+
+#displaytable td a
+{
+width:100px;
+height:30px;
+background:#666666;
+border:medium double #000000;
+font-family:"Courier New", Courier, monospace;
+font-size:16px;
+font-weight:bold;
+color:#fff;
+text-align:center;
+cursor:pointer;
+}
+
+.note
+{
+  font-family: sans-serif;
+  font-size: 10px;
+  color: lightslategrey;
+}
+
+
+
+.previewimg
+{
+  width:150px;
+  height: 150px;
+}

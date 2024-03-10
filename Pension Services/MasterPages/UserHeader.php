@@ -1,0 +1,50 @@
+<?php
+
+echo '<html>
+<head>
+
+  <title>Pension. Services Portal</title>
+  
+    <link href="../CSS/styles.css" rel="stylesheet" type="text/css" media="screen" />
+		
+		<link rel="stylesheet" href="../CSS/Control.css" type="text/css" media="screen" />
+		
+		<script type="text/javascript" src="../Validation/validation.js"></script>
+
+        <script type="text/javascript" src="../js/cufon-yui.js"></script>
+        <script type="text/javascript" src="../js/28_Days_Later_400.font.js"></script>
+<script type="text/javascript">
+    Cufon.replace("H1");
+    Cufon.replace("H2");
+    Cufon.replace("H3");
+    Cufon.replace("#top_padding a");
+    Cufon.replace("#menu a");
+</script>
+</head>
+
+<body>
+
+
+ <div id="wrap">
+										
+				<div id="content_bg_repeat">
+				<div id="top_padding">
+							<a href="#">Pension. Service Portal</a>
+						<h3><a href="">Services for valid peoples.</a></h3>
+				</div>
+				
+					<div id="menu">
+          <ul>
+          <li><a href="UserServicesList.php">Services</a></li>
+		      <li><a href="UserRequestList.php">Request List</a></li>
+          <li><a href="UserInfo.php">Info</a></li>
+          <li><a href="ChangePassword.php">Password</a></li>
+          <li><a href="../Logout.php">Log Out</a></li>
+					</ul>
+				</div>
+					
+					
+					<div id="content">
+';
+
+?>

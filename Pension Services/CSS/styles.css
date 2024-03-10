@@ -1,0 +1,203 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    padding: 0px;
+    border: none;
+}
+
+a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5B2106;
+}
+
+h1{
+	font: 28px Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight:bold;
+	padding: 0px 0px 10px 0px;
+
+}
+
+body {	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    background-image:url(../images/bg1.png);
+}
+
+.clear{
+	clear: both;	
+}
+
+#wrap{
+	width: 1050px;
+	margin: 0 auto;
+    padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#menu{
+	width: 1015px;
+	height: 66px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	background-image:url(../images/button.png);
+-webkit-box-shadow: 0 0 1em rgb(1,2,3);
+	-moz-box-shadow: 0 0 1em rgb(1,2,3);
+	box-shadow: 0 0 0.5em rgb(1,1,2);
+	border: 2px solid #FFFFFF;
+}
+
+#menu ul{
+	padding-left: 0px;
+    list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#menu ul li{
+	display: inline;
+
+}
+
+#menu ul li a{
+	font: 14px Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+	text-align: center;
+    display: block;
+    float: left;
+	padding: 30px 40px 24px 40px;
+}
+
+#menu ul li a:hover,  #menu ul li .active{
+	background: url(../images/active.png) ;
+}
+
+#top_padding{
+	height: 70px;
+    padding-left: 30px;	
+}
+
+#top_padding a{
+	 font-size: 40px;
+}
+
+#top_padding H3 a{
+	 font-size: 14px;
+}
+
+/*
+	content
+*/
+
+#content_bg_repeat{
+background-image:url(../images/content.png);
+	padding: 30px 14px 30px 15px;
+	
+	-webkit-box-shadow: 0 0 1em rgb(1,2,3);
+	-moz-box-shadow: 0 0 1em rgb(1,2,3);
+	box-shadow: 0 0 0.5em rgb(1,1,2);
+	border: 2px solid #FFFFFF;
+}
+
+
+#content {width:100%; font-family:constantia; font-size:16px; letter-spacing:2px; line-height:150%;}
+
+#content  p
+{
+text-align:justify;
+margin-bottom:20px;
+}
+
+#footer {padding:18px;width:95%; font-family:constantia; font-size:14px; letter-spacing:2px; line-height:150%; text-align:center; color:#000000;}
+
+/*=================================
+          Nivo Slider Demo
+  =================================*/
+
+
+#slider-wrapper {
+    background:url(../images/top.jpg) no-repeat;
+    width: 1016px;
+    height: 289px;
+    margin:0 auto;
+	padding-bottom: 30px;
+	
+}
+
+#slider {
+	position:relative;
+	width: 1016px;
+    height:289px;
+	background:url(../images/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+#slider a {
+	border:0;
+	display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:260px;
+	bottom:-42px;
+	display: none;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
